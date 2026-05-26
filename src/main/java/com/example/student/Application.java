@@ -33,6 +33,6 @@ public class Application {
         
         server.setExecutor(null);
         server.start();
-        System.out.println("Server is running on http://localhost:" + port);
+        System.out.println("Hello DevOps CI/CD Project Running Successfully!");
     }
 }
