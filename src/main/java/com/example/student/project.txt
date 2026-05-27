@@ -1,0 +1,17 @@
+cd C:\Users\HP\Downloads\cicd-java-docker-maven-project
+
+mvn clean package
+
+java -jar target\student-1.0.jar
+
+git init
+
+git remote add origin https://github.com/Tanmay1145/cicd-java-docker-maven-project.git
+
+git add .
+
+git commit -m "Project Updated"
+
+git branch -M main
+
+git push -u origin main
